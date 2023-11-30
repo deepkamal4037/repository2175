@@ -9,7 +9,7 @@ public class DatabasePractice {
 		Connection conn = null;
 		Statement stat = null;
 		ResultSet rs = null ;
-		
+		method(); 
 		try {
 			//Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 			Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
@@ -59,4 +59,8 @@ public class DatabasePractice {
 
 	}
 
+	public static void method() 
+	{
+		System.out.println("This is a method");
+	}
 }
